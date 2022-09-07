@@ -1,0 +1,267 @@
+2022-03-15 12:21:59,019 [INFO] Activator:177 - 
+
+
+2022-03-15 12:21:59,022 [INFO] Activator:178 - !SESSION log4j initialized
+2022-03-15 12:22:04,677 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-03-15 12:48:43,889 [INFO] Activator:177 - 
+
+
+2022-03-15 12:48:43,897 [INFO] Activator:178 - !SESSION log4j initialized
+2022-03-15 12:48:48,338 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-03-15 12:53:18,143 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Compilation Unit @ b
+2022-03-15 12:53:18,144 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Length: 364
+2022-03-15 12:53:18,145 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Version: 4
+2022-03-15 12:53:18,145 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Abbreviation: 0
+2022-03-15 12:53:18,146 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Address size: 8
+2022-03-15 12:53:18,146 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Offset size: 4
+2022-03-15 12:53:18,147 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 1 11 1
+2022-03-15 12:53:18,148 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 25 8
+2022-03-15 12:53:18,148 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 13 b
+2022-03-15 12:53:18,149 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,150 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1b 8
+2022-03-15 12:53:18,150 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 11 1
+2022-03-15 12:53:18,151 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 12 7
+2022-03-15 12:53:18,152 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 10 17
+2022-03-15 12:53:18,153 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 2119 17
+2022-03-15 12:53:18,153 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,154 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 2 24 0
+2022-03-15 12:53:18,155 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 b b
+2022-03-15 12:53:18,156 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3e b
+2022-03-15 12:53:18,156 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,157 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,158 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 3 2e 0
+2022-03-15 12:53:18,158 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3f 19
+2022-03-15 12:53:18,159 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,160 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2022-03-15 12:53:18,160 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2022-03-15 12:53:18,161 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 39 b
+2022-03-15 12:53:18,161 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 27 19
+2022-03-15 12:53:18,162 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2022-03-15 12:53:18,163 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 11 1
+2022-03-15 12:53:18,164 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 12 7
+2022-03-15 12:53:18,164 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 40 18
+2022-03-15 12:53:18,165 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 2116 19
+2022-03-15 12:53:18,165 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,168 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Compilation Unit @ 17b
+2022-03-15 12:53:18,169 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Length: 42
+2022-03-15 12:53:18,169 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Version: 2
+2022-03-15 12:53:18,170 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Abbreviation: 62
+2022-03-15 12:53:18,171 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Address size: 8
+2022-03-15 12:53:18,171 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Offset size: 4
+2022-03-15 12:53:18,172 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 1 11 0
+2022-03-15 12:53:18,173 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 10 6
+2022-03-15 12:53:18,173 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 11 1
+2022-03-15 12:53:18,174 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 12 1
+2022-03-15 12:53:18,174 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 e
+2022-03-15 12:53:18,174 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1b e
+2022-03-15 12:53:18,175 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 25 e
+2022-03-15 12:53:18,175 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 13 5
+2022-03-15 12:53:18,176 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,177 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Compilation Unit @ 1a9
+2022-03-15 12:53:18,177 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Length: 7894
+2022-03-15 12:53:18,177 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Version: 4
+2022-03-15 12:53:18,178 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Abbreviation: 82
+2022-03-15 12:53:18,179 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Address size: 8
+2022-03-15 12:53:18,179 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Offset size: 4
+2022-03-15 12:53:18,180 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 1 11 1
+2022-03-15 12:53:18,180 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 25 8
+2022-03-15 12:53:18,181 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 13 b
+2022-03-15 12:53:18,181 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,181 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1b 8
+2022-03-15 12:53:18,182 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 10 17
+2022-03-15 12:53:18,182 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,183 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 2 24 0
+2022-03-15 12:53:18,183 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 b b
+2022-03-15 12:53:18,184 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3e b
+2022-03-15 12:53:18,184 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,184 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,185 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 3 26 0
+2022-03-15 12:53:18,185 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2022-03-15 12:53:18,186 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,187 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 4 16 0
+2022-03-15 12:53:18,187 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,187 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2022-03-15 12:53:18,188 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2022-03-15 12:53:18,188 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 39 b
+2022-03-15 12:53:18,189 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2022-03-15 12:53:18,189 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,190 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 5 f 0
+2022-03-15 12:53:18,190 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 b b
+2022-03-15 12:53:18,191 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2022-03-15 12:53:18,191 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,192 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 6 34 0
+2022-03-15 12:53:18,192 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,193 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2022-03-15 12:53:18,193 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2022-03-15 12:53:18,193 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 39 b
+2022-03-15 12:53:18,194 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2022-03-15 12:53:18,194 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3f 19
+2022-03-15 12:53:18,195 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3c 19
+2022-03-15 12:53:18,195 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,196 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 7 15 0
+2022-03-15 12:53:18,196 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 27 19
+2022-03-15 12:53:18,197 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,197 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 8 1 1
+2022-03-15 12:53:18,198 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2022-03-15 12:53:18,198 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1 13
+2022-03-15 12:53:18,199 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,199 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 9 21 0
+2022-03-15 12:53:18,200 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2022-03-15 12:53:18,200 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 2f b
+2022-03-15 12:53:18,201 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,201 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 10 34 0
+2022-03-15 12:53:18,202 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,202 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2022-03-15 12:53:18,203 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b 5
+2022-03-15 12:53:18,203 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 39 b
+2022-03-15 12:53:18,204 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2022-03-15 12:53:18,204 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3f 19
+2022-03-15 12:53:18,205 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3c 19
+2022-03-15 12:53:18,205 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,206 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 11 15 1
+2022-03-15 12:53:18,207 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 27 19
+2022-03-15 12:53:18,207 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2022-03-15 12:53:18,207 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1 13
+2022-03-15 12:53:18,208 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,209 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 12 5 0
+2022-03-15 12:53:18,209 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2022-03-15 12:53:18,209 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,210 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 13 26 0
+2022-03-15 12:53:18,210 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,211 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 14 4 1
+2022-03-15 12:53:18,211 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,212 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3e b
+2022-03-15 12:53:18,212 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 b b
+2022-03-15 12:53:18,213 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2022-03-15 12:53:18,213 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2022-03-15 12:53:18,214 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2022-03-15 12:53:18,214 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 39 b
+2022-03-15 12:53:18,215 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1 13
+2022-03-15 12:53:18,215 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,216 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 15 28 0
+2022-03-15 12:53:18,217 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,217 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1c b
+2022-03-15 12:53:18,218 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,218 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 16 21 0
+2022-03-15 12:53:18,219 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,220 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 17 13 1
+2022-03-15 12:53:18,220 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,220 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 b b
+2022-03-15 12:53:18,221 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2022-03-15 12:53:18,221 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2022-03-15 12:53:18,222 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 39 b
+2022-03-15 12:53:18,222 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1 13
+2022-03-15 12:53:18,222 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,223 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 18 d 0
+2022-03-15 12:53:18,224 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,224 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2022-03-15 12:53:18,224 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2022-03-15 12:53:18,225 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 39 b
+2022-03-15 12:53:18,233 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2022-03-15 12:53:18,234 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 38 b
+2022-03-15 12:53:18,234 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,235 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 19 13 1
+2022-03-15 12:53:18,235 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,236 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 b 5
+2022-03-15 12:53:18,236 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2022-03-15 12:53:18,237 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b b
+2022-03-15 12:53:18,237 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 39 b
+2022-03-15 12:53:18,238 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1 13
+2022-03-15 12:53:18,238 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,239 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 20 d 0
+2022-03-15 12:53:18,239 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,240 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2022-03-15 12:53:18,240 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b 5
+2022-03-15 12:53:18,241 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 39 b
+2022-03-15 12:53:18,241 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2022-03-15 12:53:18,241 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 38 b
+2022-03-15 12:53:18,242 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,243 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 21 d 0
+2022-03-15 12:53:18,243 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,243 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2022-03-15 12:53:18,244 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b 5
+2022-03-15 12:53:18,244 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 39 b
+2022-03-15 12:53:18,245 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2022-03-15 12:53:18,245 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 38 5
+2022-03-15 12:53:18,246 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,247 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 22 4 1
+2022-03-15 12:53:18,247 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,247 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3e b
+2022-03-15 12:53:18,248 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 b b
+2022-03-15 12:53:18,248 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 49 13
+2022-03-15 12:53:18,249 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2022-03-15 12:53:18,249 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b 5
+2022-03-15 12:53:18,250 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 39 b
+2022-03-15 12:53:18,250 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 1 13
+2022-03-15 12:53:18,251 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,251 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 23 17 0
+2022-03-15 12:53:18,252 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3 8
+2022-03-15 12:53:18,252 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3c 19
+2022-03-15 12:53:18,253 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-15 12:53:18,254 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 	Abrev Entry: 24 34 0
+2022-03-15 12:53:18,254 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 47 13
+2022-03-15 12:53:18,255 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3a b
+2022-03-15 12:53:18,255 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 3b 5
+2022-03-15 12:53:18,255 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 39 b
+2022-03-15 12:53:18,256 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 2 18
+2022-03-15 12:53:18,256 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 		 0 0
+2022-03-17 18:49:18,709 [INFO] Activator:177 - 
+
+
+2022-03-17 18:49:18,711 [INFO] Activator:178 - !SESSION log4j initialized
+2022-03-17 18:49:23,590 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-03-20 11:18:44,619 [INFO] Activator:177 - 
+
+
+2022-03-20 11:18:44,621 [INFO] Activator:178 - !SESSION log4j initialized
+2022-03-20 11:18:51,261 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-03-20 21:01:48,864 [INFO] Activator:177 - 
+
+
+2022-03-20 21:01:48,867 [INFO] Activator:178 - !SESSION log4j initialized
+2022-03-20 21:01:54,124 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-03-22 13:19:24,013 [INFO] Activator:177 - 
+
+
+2022-03-22 13:19:24,015 [INFO] Activator:178 - !SESSION log4j initialized
+2022-03-22 13:19:30,972 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-03-22 22:53:57,517 [INFO] Activator:177 - 
+
+
+2022-03-22 22:53:57,520 [INFO] Activator:178 - !SESSION log4j initialized
+2022-03-22 22:54:04,790 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-03-31 12:21:47,559 [INFO] Activator:177 - 
+
+
+2022-03-31 12:21:47,566 [INFO] Activator:178 - !SESSION log4j initialized
+2022-03-31 12:21:54,058 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-04-05 11:16:24,566 [INFO] Activator:177 - 
+
+
+2022-04-05 11:16:24,568 [INFO] Activator:178 - !SESSION log4j initialized
+2022-04-05 11:16:29,886 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-04-09 10:46:15,720 [INFO] Activator:177 - 
+
+
+2022-04-09 10:46:15,723 [INFO] Activator:178 - !SESSION log4j initialized
+2022-04-09 10:46:21,470 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-04-10 11:52:55,430 [INFO] Activator:177 - 
+
+
+2022-04-10 11:52:55,432 [INFO] Activator:178 - !SESSION log4j initialized
+2022-04-10 11:53:01,134 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-04-14 16:24:35,183 [INFO] Activator:177 - 
+
+
+2022-04-14 16:24:35,186 [INFO] Activator:178 - !SESSION log4j initialized
+2022-04-14 16:24:41,254 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-04-15 12:59:41,761 [INFO] Activator:177 - 
+
+
+2022-04-15 12:59:41,766 [INFO] Activator:178 - !SESSION log4j initialized
+2022-04-15 12:59:49,096 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-09-07 19:34:41,863 [INFO] Activator:177 - 
+
+
+2022-09-07 19:34:41,879 [INFO] Activator:178 - !SESSION log4j initialized
+2022-09-07 19:34:45,737 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com

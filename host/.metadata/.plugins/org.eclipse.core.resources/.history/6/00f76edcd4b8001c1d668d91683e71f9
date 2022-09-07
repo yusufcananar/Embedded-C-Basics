@@ -1,0 +1,66 @@
+/*
+ * main.c
+ *
+ *  Created on: 10 Apr 2022
+ *      Author: yusuf
+ */
+
+
+#include<stdio.h>
+#include<stdint.h>
+
+union Packet{
+	uint32_t packetValue;
+
+	 struct{
+		uint32_t crc		:2;
+		uint32_t status		:1;
+		uint32_t payload	:12;
+		uint32_t bat		:3;
+		uint32_t sensor		:3;
+		uint32_t longAddr	:8;
+		uint32_t shortAddr	:2;
+		uint32_t addrMode	:1;
+	 }packetFields;
+};
+
+
+//function defs
+void waitKey(void);
+void displayPacketElements(union Packet *);
+
+int main(){
+
+	union Packet my_packet;
+
+	printf("Enter the 32-bit package value : ");
+	if(scanf("%X", &my_packet.packetValue) == 0){
+		printf("Invalid entry !\n");
+	}
+
+	displayPacketElements(&my_packet);
+	printf("Size of the Packet Structure is %I64u\n", sizeof(my_packet));
+
+	waitKey();
+	return 0;
+}
+
+void waitKey(void){
+	//Exit Section with wait KEY
+	printf("\nPress 'Enter' key to EXIT..");
+	while(getchar() != '\n'){};
+	getchar();
+}
+
+void displayPacketElements(union Packet *pData){
+	printf("crc 	  : 0x%X\n", pData->packetValue->crc);
+	printf("status    : 0x%X\n", pData->packetValue->status);
+	printf("payload   : 0x%X\n", pData->packetValue->payload);
+	printf("bat	  : 0x%X\n", pData->packetValue->bat);
+	printf("sensor    : 0x%X\n", pData->packetValue->sensor);
+	printf("longAddr  : 0x%X\n", pData->packetValue->longAddr);
+	printf("shortAddr : 0x%X\n", pData->packetValue->shortAddr);
+	printf("AddrMode  : 0x%X\n", pData->packetValue->addrMode);
+}
+
+

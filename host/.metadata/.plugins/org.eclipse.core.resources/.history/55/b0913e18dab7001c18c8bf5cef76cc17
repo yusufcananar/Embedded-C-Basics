@@ -1,0 +1,39 @@
+/*
+ * main.c
+ *
+ *  Created on: 9 Apr 2022
+ *      Author: yusuf
+ */
+
+
+#include<stdio.h>
+#include<stdint.h>
+
+//function defs
+void waitKey(void);
+
+int main()
+{
+	struct carModel{
+		unsigned int carNumber;
+		uint32_t carPrice;
+		uint16_t carSpeed;
+		float carWeight;
+	};
+
+	struct carModel carMercedes, carVolvo;
+
+	carMercedes = {2021, 15000, 220, 1330};
+	carVolvo = {4031, 35000, 160, 1900.96};
+
+	waitKey();
+	return 0;
+}
+
+void waitKey(){
+	//Exit Section with wait KEY
+	printf("\nPress 'Enter' key to EXIT..");
+	while(getchar() != '\n'){};
+	getchar();
+}
+

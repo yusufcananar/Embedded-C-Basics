@@ -1,0 +1,310 @@
+/*
+ * main.c
+ *
+ *  Created on: 14 Apr 2022
+ *      Author: yusuf
+ */
+
+#include <stdint.h>
+#include <stdio.h>
+#include <string.h>
+#include "main.h"
+
+//Maximum record this program can store
+int max_record=10;
+
+//Global array of records
+STUDENT_INFO_t students[10];
+
+//funct. defs
+void waitKey(void);
+void display_menu(void);
+int read_menu_code(void);
+void decode_menu_code(int8_t menu_code);
+void display_all_records(STUDENT_INFO_t *record, int8_t max_record);
+int check_roll_number(int roll_number, STUDENT_INFO_t *record, int8_t max_record);
+int add_new_record(STUDENT_INFO_t *record, int8_t max_record);
+int delete_record(STUDENT_INFO_t *record, int8_t max_record);
+
+int main(){
+	int8_t running = 1;
+	int8_t option_code;
+
+	printf("Student record management program\n");
+	while(running){
+		//1. display menu
+		display_menu();
+
+		//2. read the menu option code
+		option_code = read_menu_code();
+
+		if(option_code){
+			//Decode the menu option code
+			decode_menu_code(option_code);
+		}else{
+			//end the app if option code = 0
+			running = 0;
+			printf("Exisiting the app..\n");
+		}
+
+	}
+
+	waitKey();
+	return 0;
+}
+
+void waitKey(void){
+	//Exit Section with wait KEY
+	printf("\nPress 'Enter' key to EXIT..");
+	while(getchar() != '\n'){};
+	getchar();
+}
+
+/*
+ * This function displays the menu to the user
+ * Please note that 0 is the code to exit this program
+ */
+void display_menu(void){
+    printf("\nDisplay all records  -->1\n");
+    printf("Add new record       -->2\n");
+    printf("Delete a record      -->3\n");
+    printf("Exit application     -->0\n");
+    printf("Enter your option here:");
+}
+
+/*
+ * This function reads the menu code entered by the user and return the code
+ */
+int read_menu_code(void){
+	int option;
+	scanf("%d", &option);
+	return option;
+}
+
+//This function decodes the menu
+void decode_menu_code(int8_t menu_code)
+{
+    int8_t ret;
+
+    switch(menu_code)
+    {
+        case 1:
+        	printf("Displaying all students record\n");
+        	display_all_records(students,max_record);
+        	break;
+        case 2:
+			printf("Add a new record\n");
+			ret = add_new_record(students,max_record);
+			!ret ? printf("Record add unsuccessful\n") : printf("Record added successfully\n");
+			break;
+        case 3:
+			printf("Delete a record\n");
+			ret = delete_record(students,max_record);
+			ret ? printf("Record deleted successfully\n") : printf("Record not found\n");
+			break;
+        default:
+			printf("Invalid input\n");
+    }
+}
+
+/*
+ * This function displays all the records so far entered by the user
+ * in_param[1] : base address of the records
+ * in_param[2] : maximum record number maintained by this program
+ * Note: if no records found, then this function should print "No records found'
+ */
+
+void display_all_records(STUDENT_INFO_t *record, int8_t max_record){
+	uint8_t isAnyRecordExist = 0;
+	for(uint32_t i = 0; i < max_record; i++){
+		if(record->rollNumber){
+			printf("******************************\n");
+			printf("Roll Number   : %d\n", record->rollNumber);
+			printf("Semester	  : %d\n", record->semester);
+			printf("Date of Birth : %s\n", record->dateOfBirth);
+			printf("Branch	  	  : %s\n", record->branch);
+			printf("Name 	  	  : %s\n", record->name);
+			printf("******************************\n");
+
+			isAnyRecordExist = 1;
+		}
+		record++;
+	}
+	if(!isAnyRecordExist){
+		printf("No Records Found.!\n");
+	}
+}
+
+/*
+ * This function matches the given roll_number with the roll numbers of the records by traversing through record node one by one
+ * in_param[1]: given roll number
+ * in_param[2]: base address of the records
+ * in_param[3]: max record number of this program
+ * return : 0 for no_match , 1 for match
+ */
+int check_roll_number(int roll_number, STUDENT_INFO_t *record, int8_t max_record)
+{
+	int isMatch = 0;
+	for(uint32_t i = 0; i < max_record; i++){
+			if(record[i].rollNumber == roll_number){
+				isMatch = 1;
+			}
+		}
+
+	return isMatch;
+}
+
+/*
+ * This function adds a new record by asking various information from the user.
+ * before adding a record , function has to identify an empty node
+ * Assume a node is empty , if roll number field of node is zero
+ * in_param[1]: base address of the records
+ * in_param[2]: max record number of this program
+ * return values : 0 if add is unsuccessful, 1 if add is successful
+ * Note1 : This function should also print "roll number already exist" if roll number entered is already exist in the record
+ * Note2 : This function should also print "No space available", if all nodes of the array are occupied
+ */
+int add_new_record(STUDENT_INFO_t *record, int8_t max_record)
+{	int isAdded = 0;
+	int isRollNoExist = 0;
+	int roll_number, firstEmptyIndex = -1;
+
+	printf("Enter the roll number : ");
+	scanf("%d", &roll_number);
+
+	isRollNoExist = check_roll_number(roll_number, record, max_record);
+
+	if(isRollNoExist){
+		printf("Roll number already exists.!\n");
+
+	}else{
+		for(uint32_t i = 0; i < max_record; i++){
+			if(!(record[i].rollNumber)){
+				firstEmptyIndex = i;
+			}
+		}
+
+		if(!(firstEmptyIndex == -1)){
+			record[firstEmptyIndex].rollNumber = roll_number;
+			printf("Enter the semester : ");
+			scanf("%d", &record[firstEmptyIndex].semester);
+
+			printf("Enter the Birthday(dd/mm/yyyy) : ");
+			scanf("%50[^\n]s", record[firstEmptyIndex].dateOfBirth);
+			getchar();
+			getchar();
+
+			printf("Enter the branch : ");
+			scanf("%50[^\n]s", record[firstEmptyIndex].branch);
+			getchar();
+
+			printf("Enter the name : ");
+			scanf("%50[^\n]s", record[firstEmptyIndex].name);
+
+			isAdded = 1;
+
+		}else{
+			printf("No space available\n");
+		}
+	}
+	return isAdded;
+}
+
+
+/*
+ * Delete a record.
+ * first ask the user to enter the roll number of the student
+ * delete a node against that roll number
+ * in_param[1]: base address of the records
+ * in_param[2]: max record number of this program
+ * return values : 0 if delete unsuccessful, 1 if delete successful
+ *
+ */
+int delete_record(STUDENT_INFO_t *record, int8_t max_record){
+	int isDeleted = 0;
+	int isRollNoExist = 0;
+	int roll_number;
+
+	printf("Enter the roll number : ");
+	scanf("%d", &roll_number);
+
+	isRollNoExist = check_roll_number(roll_number, record, max_record);
+
+	if(isRollNoExist){
+		for(uint32_t i = 0; i < max_record; i++){
+			if(record[i].rollNumber == roll_number){
+				record[i].rollNumber = 0;
+				record[i].semester = 0;
+				record[i].name[0] = 0;
+				record[i].branch[0] = 0;
+				record[i].dateOfBirth[0] = 0;
+				isDeleted = 1;
+			}
+		}
+	}else{
+		printf("Nothing to delete\n");
+	}
+
+	return isDeleted;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+void deletes_record(STUDENT_INFO_t *pStudentRecords, uint32_t record_size){
+	uint32_t temp;
+	uint8_t isMatch = 0;
+
+	printf("Delete a Record..\n");
+
+	printf("Enter the roll number : ");
+	scanf("%u", &temp);
+
+	for(uint32_t i = 0; i < record_size; i++){
+
+		if(pStudentRecords[i].rollNumber == temp){
+
+			printf("Deleting the record..\n");
+			isMatch = 1;
+
+			pStudentRecords[i].rollNumber = 0;
+			pStudentRecords[i].semester = 0;
+			pStudentRecords[i].name[0] = 0;
+			pStudentRecords[i].branch[0] = 0;
+			pStudentRecords[i].dateOfBirth[0] = 0;
+
+		}
+	}
+
+	if(!isMatch){
+		printf("No record found.!\n");
+	}
+
+}
+*/
+
+
+

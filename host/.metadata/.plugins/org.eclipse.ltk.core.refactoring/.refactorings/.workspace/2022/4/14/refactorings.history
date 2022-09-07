@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;0016unionBitExtractionExercise&apos; to &apos;016unionBitExtractionExercise&apos;" description="Rename resource &apos;0016unionBitExtractionExercise&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/0016unionBitExtractionExercise" name="016unionBitExtractionExercise" stamp="1649598125831" updateReferences="true"/>
+</session>

@@ -1,0 +1,21 @@
+13:12:58 **** Incremental Build of configuration Debug for project 008keypadExercise ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "008keypadExercise.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\yusuf\Documents\Embedded-C\My_Workspace\target\008keypadExercise\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="008keypadExercise.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 008keypadExercise.elf
+ 
+arm-none-eabi-size   008keypadExercise.elf 
+arm-none-eabi-objdump -h -S  008keypadExercise.elf  > "008keypadExercise.list"
+   text	   data	    bss	    dec	    hex	filename
+   4652	    108	   1588	   6348	   18cc	008keypadExercise.elf
+Finished building: default.size.stdout
+ 
+Finished building: 008keypadExercise.list
+ 
+13:13:04 **** Incremental Build of configuration Debug for project 008keypadExercise ****
+make -j8 all 
+arm-none-eabi-size   008keypadExercise.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4652	    108	   1588	   6348	   18cc	008keypadExercise.elf
+Finished building: default.size.stdout
+ 

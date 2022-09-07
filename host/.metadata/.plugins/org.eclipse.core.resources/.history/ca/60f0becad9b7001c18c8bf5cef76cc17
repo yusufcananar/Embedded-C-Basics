@@ -1,0 +1,30 @@
+/*
+ * main.c
+ *
+ *  Created on: 9 Apr 2022
+ *      Author: yusuf
+ */
+
+
+#include<stdio.h>
+#include<stdint.h>
+
+//function defs
+void waitKey(void);
+
+int main()
+{
+
+
+
+	waitKey();
+	return 0;
+}
+
+void waitKey(){
+	//Exit Section with wait KEY
+	printf("\nPress 'Enter' key to EXIT..");
+	while(getchar() != '\n'){};
+	getchar();
+}
+

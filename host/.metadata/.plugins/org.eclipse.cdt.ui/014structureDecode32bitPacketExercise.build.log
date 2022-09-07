@@ -1,0 +1,7 @@
+16:55:05 **** Incremental Build of configuration Debug for project 014structureDecode32bitPacketExercise ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o 014structureDecode32bitPacketExercise.exe main.o 
+
+16:55:06 Build Finished. 0 errors, 0 warnings. (took 931ms)
+

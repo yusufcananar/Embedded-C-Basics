@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;010setBitsExercise&apos; to &apos;010setClearBitsExercise&apos;" description="Rename resource &apos;010setBitsExercise&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/010setBitsExercise" name="010setClearBitsExercise" stamp="1648725266082" updateReferences="true"/>
+</session>

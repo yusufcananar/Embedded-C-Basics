@@ -1,0 +1,10 @@
+13:20:47 **** Incremental Build of configuration Debug for project 004LEDExercise ****
+make -j8 all 
+arm-none-eabi-size   004LEDExercise.elf 
+   text	   data	    bss	    dec	    hex	filename
+    748	      8	   1568	   2324	    914	004LEDExercise.elf
+Finished building: default.size.stdout
+ 
+
+13:20:47 Build Finished. 0 errors, 0 warnings. (took 246ms)
+

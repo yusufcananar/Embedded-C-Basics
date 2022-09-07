@@ -1,0 +1,21 @@
+/*
+ * main.h
+ *
+ *  Created on: 15 Apr 2022
+ *      Author: yusuf
+ */
+
+#ifndef MAIN_H_
+#define MAIN_H_
+
+#include<stdint.h>
+typedef struct{
+	uint32_t rollNumber;
+	uint8_t	 semester;
+	char 	 dateOfBirth[12];
+	char 	 branch[30];
+	char	 name[30];
+}STUDENT_INFO_t;
+
+
+#endif /* MAIN_H_ */

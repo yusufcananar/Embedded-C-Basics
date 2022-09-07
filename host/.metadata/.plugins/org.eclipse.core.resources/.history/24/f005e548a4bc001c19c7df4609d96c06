@@ -1,0 +1,17 @@
+/*
+ * main.h
+ *
+ *  Created on: 15 Apr 2022
+ *      Author: yusuf
+ */
+
+#ifndef MAIN_H_
+#define MAIN_H_
+
+#include<stdint.h>
+typedef struct{
+
+}STUDENT_INFO_t;
+
+
+#endif /* MAIN_H_ */

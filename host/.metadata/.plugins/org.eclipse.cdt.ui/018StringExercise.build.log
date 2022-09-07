@@ -1,0 +1,7 @@
+15:56:35 **** Incremental Build of configuration Debug for project 018StringExercise ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o 018StringExercise.exe main.o 
+
+15:56:36 Build Finished. 0 errors, 0 warnings. (took 542ms)
+

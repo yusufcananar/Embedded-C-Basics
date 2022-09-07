@@ -1,0 +1,57 @@
+/*
+ * main.c
+ *
+ *  Created on: 9 Apr 2022
+ *      Author: yusuf
+ */
+
+
+#include<stdio.h>
+#include<stdint.h>
+
+//function defs
+void waitKey(void);
+
+struct carModel{
+	uint8_t carNumber;
+	uint32_t carPrice;
+	uint8_t carMaxSpeed;
+	uint16_t carWeight;
+};
+
+int main()
+{
+	struct carModel carMercedes = {221, 15000, 220, 1330},
+					carVolvo 	= {031, 35000, 160, 1900.96},
+					carToyota 	= {.carPrice = 21000, .carNumber = 123};
+
+
+	printf("Mercedes car number is %u\n", carMercedes.carNumber);
+	printf("VOLVO car number is %u\n", carVolvo.carNumber);
+	printf("Toyota car number is %u\n", carToyota.carNumber);
+
+	uint8_t *ptr;
+	ptr = (uint8_t *)&carVolvo;
+
+	uint32_t totalSizeOfVolvo = sizeof(carVolvo);
+
+	printf("Memory Address    ,   Data\n");
+	printf("================================\n");
+	for(uint8_t i = 0; i < totalSizeOfVolvo; i++){
+		printf("%p  ,    %X\n", ptr, *ptr);
+		ptr++;
+	}
+
+	printf("Total Memory Consumed by Volvo = %I64u", sizeof(carVolvo));
+
+	waitKey();
+	return 0;
+}
+
+void waitKey(){
+	//Exit Section with wait KEY
+	printf("\nPress 'Enter' key to EXIT..");
+	while(getchar() != '\n'){};
+	getchar();
+}
+
